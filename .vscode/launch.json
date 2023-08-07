@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-WebfluxApplication<webflux>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.woong.webflux.WebfluxApplication",
+            "projectName": "webflux",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
