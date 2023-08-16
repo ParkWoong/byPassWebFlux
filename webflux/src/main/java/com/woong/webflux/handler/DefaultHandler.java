@@ -19,7 +19,7 @@ import reactor.core.publisher.Mono;
 public class DefaultHandler {
 
     private final WebClientPublisher webClientPublisher;
-    private final ResponsePublisher jsonPublisher;
+    //private final ResponsePublisher jsonPublisher;
 
     public Mono<ServerResponse> handle(ServerRequest request){
 

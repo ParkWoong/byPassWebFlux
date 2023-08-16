@@ -15,7 +15,7 @@ public class RouterConfig {
     
     @Bean
     public RouterFunction<ServerResponse> hanldler(DefaultHandler handler){
-        return RouterFunctions.route().GET("/test", handler::handle).build(); // test 라우터 호출
+        return RouterFunctions.route().POST("/test", handler::handle).build(); // test 라우터 호출
     }
     
     @Bean
